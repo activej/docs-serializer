@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176574648-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-176574648-1');
+    </script>
+    
+    <link rel='stylesheet' href='/static/css/pygment_trac.css'/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <title>ActiveJ Serializer | World's fastest JVM serializer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" ActiveJ Serializer is world's fastest JVM serializer. It is streamlined and features powerful tools with intuitive DSL ">
+    <meta name="keywords" content=" serializer,java,java framework,java for beginners,object serialization,spring alternative,bytecode generator ">
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <meta name="og:description" content="ActiveJ is an alternative Java platform built from the ground up as a replacement of Spring, Spark, Quarkus, Micronauts, and other solutions. It is minimalistic, boilerplate-free, and provides outstanding performance." />
+    <meta name="og:image" content="https://activej.io/static/images/AJ_Card.jpeg" />
+    <meta name="og:title" content="ActiveJ - An Alternative Java platform built for web, high load, and cloud development" />
+</head>
+<body>
+    <div class="navbar-container-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <ul class="navbar-nav-visible mr-auto mt-1 mt-lg-0">
+                <div class="logo-link-title mr-5">
+                    <img src="/favicon.png" style="max-width: 25px">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a class="navbar-nav__link logo-link-title" href="/" style="margin-left: 5px">ActiveJ Serializer</a>
+                    
+                    
+                    
+                    
+                </div>
+            </ul>
+            <button class="navbar-toggler m-1 ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <div class="container">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <ul class="navbar-nav navbar-nav-visible mr-auto mt-1 mt-lg-0">
+                        
+                        <li>
+                            <a class="navbar-nav__link nav-expanded" href="/examples.html">
+                                Examples
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    
+                    
+                    
+                    
+                </div>
+                <span>
+              <ul class="navbar-nav expanded-links navbar-nav-visible mr-auto mt-1 mt-lg-0">
+                  <li class="dropdown">
+                    <a class="nav-link nav-expanded">Components</a>
+                    <ul class="dropdown__content">
+                        
+                            <div class="dropdown__content-wrapper">
+                                
+                                    <a href="https://activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://activej.io">ActiveJ</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Redefining Java for modern web applications </p>
+                                    </a>
+                                
+                                    <a href="https://inject.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://inject.activej.io">ActiveJ Inject</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Lightning-fast and ultimately powerful DI library </p>
+                                    </a>
+                                
+                                    <a href="https://serializer.activej.io" class="dropdown__content__item  selected-link ">
+                                        <li>
+                                            <div href="https://serializer.activej.io">ActiveJ Serializer</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> The fastest JVM serializer in the world </p>
+                                    </a>
+                                
+                                    <a href="https://codegen.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://codegen.activej.io">ActiveJ Codegen</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Dynamic bytecode generation without overhead of reflection </p>
+                                    </a>
+                                
+                                    <a href="https://specializer.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://specializer.activej.io">ActiveJ Specializer</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> A little bit of magic to speed up your code </p>
+                                    </a>
+                                
+                                    <a href="https://rpc.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://rpc.activej.io">ActiveJ RPC</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Lightning-fast binary protocol for microservices architecture </p>
+                                    </a>
+                                
+                                    <a href="https://fs.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://fs.activej.io">ActiveJ FS</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Tiny abstraction for managing local, remote, and distributed FS </p>
+                                    </a>
+                                
+                           </div>
+                        
+                    </ul>
+                </li>
+                  <li><a class="navbar-nav__link" href="https://activej.io/blog/release-notes.html">Blog</a> </li>
+                <li><a class="navbar-nav__link" href="http://uikernel.io">UIKernel</a></li>
+                <li><a class="navbar-nav__link" href="http://adkernel.com">AdKernel</a></li>
+                <li><a class="navbar-nav__link" href="https://github.com/activej/activej">GitHub</a></li>
+                <li><a class="navbar-nav__link" href="/about.html">About us</a></li>
+              </ul>
+            </span>
+            </div>
+        </nav>
+    </div>
+</div>
+
+    <div class="content">
+        
+            <div class="container">
+                <div class="row">
+                    <div class="px-0 mb-3 sidebar">
+    
+    <h3>Examples</h3>
+    <ul>
+        
+            <li>
+                <a href="/examples.html#simple-object-serialization">Simple Object</a>
+            </li>
+        
+            <li>
+                <a href="/examples.html#generics-and-interfaces-serialization">Generics and Interfaces</a>
+            </li>
+        
+            <li>
+                <a href="/examples.html#fixed-size-and-nullable-fields-serialization">Fixed Size and Nullable Fields</a>
+            </li>
+        
+    </ul>
+
+
+</div>
+<div class="pr-3 markdown-content docs-content">
+    <div class="status-wrapper">
+        <h1>ActiveJ Serializer Examples </h1>
+    </div>
+    <ul>
+  <li><a href="#simple-object-serialization">Simple Object Serialization</a> - 
+serialization and deserialization of a simple object.</li>
+  <li><a href="#generics-and-interfaces-serialization">Generics And Interfaces Serialization</a> - 
+serialization and deserialization of generics and interfaces.</li>
+  <li><a href="#fixed-size-and-nullable-fields-serialization">Fixed Size and Nullable Fields Serialization</a> - 
+serialization and deserialization of an object with fixed size and nullable fields.</li>
+</ul>
+
+<div class="note-wrapper">
+    <div class="note">
+        <b>Note:</b>
+        You have two options to run the examples. 
+<br />
+<b>Option 1</b>: Create a new project, import ActiveJ Serializer Maven repository and recreate the examples from scratch. 
+<br />
+<b>Option 2</b>: clone ActiveJ project from GitHub (<code>$ git clone https://github.com/activej/activej</code>)
+<br /> and import it as a Maven project. Check out tag <b>v4.0</b> and build the project. The examples are located at 
+<b>activej -&gt; examples -&gt; core -&gt; serializer</b>
+    </div>
+</div>
+
+<h3 id="simple-object-serialization">Simple Object Serialization</h3>
+<p>In order to create classes whose instances can be serialized/deserialized, you should use special annotations:</p>
+<ul>
+  <li><a href="https://github.com/activej/activej/blob/v4.0/core-serializer/src/main/java/io/activej/serializer/annotations/Serialize.java"><em>@Serialize</em></a> 
+annotation with order number on property getter. Parameter <code class="language-plaintext highlighter-rouge">order</code> provides better compatibility in case classes are changed.</li>
+  <li><a href="https://github.com/activej/activej/blob/v4.0/core-serializer/src/main/java/io/activej/serializer/annotations/Deserialize.java"><em>@Deserialize</em></a> 
+annotation with property name (which should be the same name as the one in getter) in constructor.</li>
+</ul>
+
+<p>This is enough to create serializable POJOs, for example:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Person</span> <span class="o">{</span>
+	<span class="kd">public</span> <span class="nf">Person</span><span class="o">(</span><span class="nd">@Deserialize</span><span class="o">(</span><span class="s">"age"</span><span class="o">)</span> <span class="kt">int</span> <span class="n">age</span><span class="o">,</span>
+				  <span class="nd">@Deserialize</span><span class="o">(</span><span class="s">"name"</span><span class="o">)</span> <span class="nc">String</span> <span class="n">name</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">age</span> <span class="o">=</span> <span class="n">age</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">0</span><span class="o">)</span>
+	<span class="kd">public</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">age</span><span class="o">;</span>
+
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">1</span><span class="o">)</span>
+	<span class="kd">public</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">name</span><span class="o">;</span>
+
+	<span class="kd">private</span> <span class="nc">String</span> <span class="n">surname</span><span class="o">;</span>
+
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">2</span><span class="o">)</span>
+	<span class="kd">public</span> <span class="nc">String</span> <span class="nf">getSurname</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">surname</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setSurname</span><span class="o">(</span><span class="nc">String</span> <span class="n">surname</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">surname</span> <span class="o">=</span> <span class="n">surname</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>Now let’s do some serialization. We’ll create a <strong>Person</strong> instance, a byte array that stores the result of the 
+serialization, and a <a href="https://github.com/activej/activej/blob/v4.0/core-serializer/src/main/java/io/activej/serializer/BinarySerializer.java"><strong>BinarySerializer</strong></a> 
+instance that represents a serializer that encodes and decodes <strong>&lt;T&gt;</strong> values to byte arrays (<strong>&lt;Person&gt;</strong> 
+values in this case):</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="nc">Person</span> <span class="n">john</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Person</span><span class="o">(</span><span class="mi">34</span><span class="o">,</span> <span class="s">"Jim"</span><span class="o">);</span>
+<span class="n">john</span><span class="o">.</span><span class="na">setSurname</span><span class="o">(</span><span class="s">"Smith"</span><span class="o">);</span>
+<span class="kt">byte</span><span class="o">[]</span> <span class="n">buffer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="o">[</span><span class="mi">200</span><span class="o">];</span>
+<span class="nc">BinarySerializer</span><span class="o">&lt;</span><span class="nc">Person</span><span class="o">&gt;</span> <span class="n">serializer</span> <span class="o">=</span> <span class="nc">SerializerBuilder</span><span class="o">.</span><span class="na">create</span><span class="o">()</span>
+		<span class="o">.</span><span class="na">build</span><span class="o">(</span><span class="nc">Person</span><span class="o">.</span><span class="na">class</span><span class="o">);</span></code></pre></figure>
+
+<p>That’s it, now we can serialize and deserialize our <strong>Person</strong> instance:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">serializer</span><span class="o">.</span><span class="na">encode</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">john</span><span class="o">);</span>
+<span class="nc">Person</span> <span class="n">johnCopy</span> <span class="o">=</span> <span class="n">serializer</span><span class="o">.</span><span class="na">decode</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span></code></pre></figure>
+
+<p>Let’s make a simple test to check if everything works correctly:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">john</span><span class="o">.</span><span class="na">age</span> <span class="o">+</span> <span class="s">" "</span> <span class="o">+</span> <span class="n">johnCopy</span><span class="o">.</span><span class="na">age</span><span class="o">);</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">john</span><span class="o">.</span><span class="na">name</span> <span class="o">+</span> <span class="s">" "</span> <span class="o">+</span> <span class="n">johnCopy</span><span class="o">.</span><span class="na">name</span><span class="o">);</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">john</span><span class="o">.</span><span class="na">getSurname</span><span class="o">()</span> <span class="o">+</span> <span class="s">" "</span> <span class="o">+</span> <span class="n">johnCopy</span><span class="o">.</span><span class="na">getSurname</span><span class="o">());</span></code></pre></figure>
+
+<p>After you run the example, you’ll receive the following output:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">34 34
+Jim Jim
+Smith Smith</code></pre></figure>
+
+<p>Which means that the serialization and deserialization worked correctly.</p>
+
+<p>You can explore full example sources <a href="https://github.com/activej/activej/blob/v4.0/examples/core/serializer/src/main/java/SimpleObjectExample.java">on GitHub</a>.</p>
+
+<h3 id="generics-and-interfaces-serialization">Generics and Interfaces Serialization</h3>
+<p>ActiveJ Serializer can simply manage more complex objects. For example, let’s see how it works with interfaces and 
+generics.</p>
+
+<p>First, create a simple <strong>Skill</strong> class:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Skill</span><span class="o">&lt;</span><span class="no">K</span><span class="o">,</span> <span class="no">V</span><span class="o">&gt;</span> <span class="o">{</span>
+	<span class="kd">private</span> <span class="kd">final</span> <span class="no">K</span> <span class="n">key</span><span class="o">;</span>
+	<span class="kd">private</span> <span class="kd">final</span> <span class="no">V</span> <span class="n">value</span><span class="o">;</span>
+
+	<span class="kd">public</span> <span class="nf">Skill</span><span class="o">(</span><span class="nd">@Deserialize</span><span class="o">(</span><span class="s">"key"</span><span class="o">)</span> <span class="no">K</span> <span class="n">key</span><span class="o">,</span>
+				 <span class="nd">@Deserialize</span><span class="o">(</span><span class="s">"value"</span><span class="o">)</span> <span class="no">V</span> <span class="n">value</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">key</span> <span class="o">=</span> <span class="n">key</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">value</span> <span class="o">=</span> <span class="n">value</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">0</span><span class="o">)</span>
+	<span class="kd">public</span> <span class="no">K</span> <span class="nf">getKey</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">key</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">1</span><span class="o">)</span>
+	<span class="kd">public</span> <span class="no">V</span> <span class="nf">getValue</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">value</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>Next, create a <strong>Person</strong> interface that has a single method returning a list of skills:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Person</span><span class="o">&lt;</span><span class="no">K</span><span class="o">,</span> <span class="no">V</span><span class="o">&gt;</span> <span class="o">{</span>
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">0</span><span class="o">)</span>
+	<span class="nc">List</span><span class="o">&lt;</span><span class="nc">Skill</span><span class="o">&lt;</span><span class="no">K</span><span class="o">,</span> <span class="no">V</span><span class="o">&gt;&gt;</span> <span class="nf">getSkills</span><span class="o">();</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>Finally create a <strong>Developer</strong> class that implements <strong>Person</strong> interface:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Developer</span> <span class="kd">implements</span> <span class="nc">Person</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;</span> <span class="o">{</span>
+	<span class="kd">private</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Skill</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;&gt;</span> <span class="n">list</span><span class="o">;</span>
+
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">0</span><span class="o">)</span>
+	<span class="nd">@Override</span>
+	<span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Skill</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;&gt;</span> <span class="nf">getSkills</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">list</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setSkills</span><span class="o">(</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Skill</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;&gt;</span> <span class="n">list</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">list</span> <span class="o">=</span> <span class="n">list</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>Let’s proceed to the serialization. Similarly to the previous example, we’ll create an instance of the <strong>Developer</strong>, a 
+byte array to store the result of the serialization and an instance of <strong>BinarySerializer&lt;Developer&gt;</strong> serializer:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="nc">Developer</span> <span class="n">developer</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Developer</span><span class="o">();</span>
+<span class="n">developer</span><span class="o">.</span><span class="na">setSkills</span><span class="o">(</span><span class="nc">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span>
+		<span class="k">new</span> <span class="nc">Skill</span><span class="o">&lt;&gt;(</span><span class="mi">1</span><span class="o">,</span> <span class="s">"Java"</span><span class="o">),</span>
+		<span class="k">new</span> <span class="nc">Skill</span><span class="o">&lt;&gt;(</span><span class="mi">2</span><span class="o">,</span> <span class="s">"ActiveJ"</span><span class="o">)));</span>
+
+<span class="kt">byte</span><span class="o">[]</span> <span class="n">buffer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="o">[</span><span class="mi">200</span><span class="o">];</span>
+<span class="nc">BinarySerializer</span><span class="o">&lt;</span><span class="nc">Developer</span><span class="o">&gt;</span> <span class="n">serializer</span> <span class="o">=</span> <span class="nc">SerializerBuilder</span><span class="o">.</span><span class="na">create</span><span class="o">()</span>
+		<span class="o">.</span><span class="na">build</span><span class="o">(</span><span class="nc">Developer</span><span class="o">.</span><span class="na">class</span><span class="o">);</span></code></pre></figure>
+
+<p>Now let’s serialize and deserialize our <strong>Developer</strong> instance:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">serializer</span><span class="o">.</span><span class="na">encode</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">developer</span><span class="o">);</span>
+<span class="nc">Developer</span> <span class="n">developer2</span> <span class="o">=</span> <span class="n">serializer</span><span class="o">.</span><span class="na">decode</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span></code></pre></figure>
+
+<p>Check if the serialization works correctly:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">developer</span><span class="o">.</span><span class="na">getSkills</span><span class="o">().</span><span class="na">size</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">developer</span><span class="o">.</span><span class="na">getSkills</span><span class="o">().</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">getKey</span><span class="o">()</span> <span class="o">+</span> <span class="s">" - "</span> <span class="o">+</span> <span class="n">developer</span><span class="o">.</span><span class="na">getSkills</span><span class="o">().</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">getValue</span><span class="o">()</span> <span class="o">+</span>
+			<span class="s">", "</span> <span class="o">+</span> <span class="n">developer2</span><span class="o">.</span><span class="na">getSkills</span><span class="o">().</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">getKey</span><span class="o">()</span> <span class="o">+</span> <span class="s">" - "</span> <span class="o">+</span> <span class="n">developer2</span><span class="o">.</span><span class="na">getSkills</span><span class="o">().</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">getValue</span><span class="o">());</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>If you run the example, you’ll receive the following output:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">1 - Java, 1 - Java
+2 - ActiveJ, 2 - ActiveJ</code></pre></figure>
+
+<p>Which means that the serialization worked correctly.</p>
+
+<p>You can explore full example sources <a href="https://github.com/activej/activej/blob/v4.0/examples/core/serializer/src/main/java/GenericsAndInterfacesExample.java">on GitHub</a>.</p>
+
+<h3 id="fixed-size-and-nullable-fields-serialization">Fixed Size and Nullable Fields Serialization</h3>
+<p>ActiveJ Serializer has some <a href="https://github.com/activej/activej/blob/v4.0/core-serializer/src/main/java/io/activej/serializer/annotations">helper annotations</a>, for example:</p>
+<ul>
+  <li><a href="https://github.com/activej/activej/blob/v4.0/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeNullable.java"><em>@SerializeNullable</em></a> 
+on properties that can have null values. This annotation also has a special <code class="language-plaintext highlighter-rouge">path</code> parameter. It represent a path of the tree of the variable’s 
+data types. It allows to indicate which of the ‘nodes’ is nullable.</li>
+</ul>
+
+<p>For example:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">0</span><span class="o">)</span>
+<span class="nd">@SerializeNullable</span><span class="o">()</span> <span class="c1">// refers to Map&lt;String, Map&lt;Integer, Float[]&gt;&gt;</span>
+<span class="nd">@SerializeNullable</span><span class="o">(</span><span class="n">path</span> <span class="o">=</span> <span class="o">{</span><span class="mi">1</span><span class="o">})</span> <span class="c1">// refers to Map&lt;Integer, Float[]</span>
+<span class="nd">@SerializeNullable</span><span class="o">(</span><span class="n">path</span> <span class="o">=</span> <span class="o">{</span><span class="mi">0</span><span class="o">})</span> <span class="c1">// refers to String</span>
+<span class="nd">@SerializeNullable</span><span class="o">(</span><span class="n">path</span> <span class="o">=</span> <span class="o">{</span><span class="mi">1</span><span class="o">,</span> <span class="mi">0</span><span class="o">})</span> <span class="c1">// refers to Integer</span>
+<span class="nd">@SerializeNullable</span><span class="o">(</span><span class="n">path</span> <span class="o">=</span> <span class="o">{</span><span class="mi">1</span><span class="o">,</span> <span class="mi">1</span><span class="o">})</span> <span class="c1">// refers to Float[]</span>
+<span class="nd">@SerializeNullable</span><span class="o">(</span><span class="n">path</span> <span class="o">=</span> <span class="o">{</span><span class="mi">1</span><span class="o">,</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">0</span><span class="o">})</span> <span class="c1">//refers to the Float elements of the array</span>
+<span class="kd">public</span> <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">Float</span><span class="o">[]&gt;&gt;</span> <span class="n">complexMap</span><span class="o">;</span></code></pre></figure>
+
+<p>As you can see, you can write several annotations for the different paths of the same data structure.</p>
+<ul>
+  <li><a href="https://github.com/activej/activej/blob/v4.0/core-serializer/src/main/java/io/activej/serializer/annotations/SerializeFixedSize.java"><em>@SerializeFixedSize</em></a> on properties that should have a fixed size after serialization</li>
+</ul>
+
+<p>Let’s create a simple example that illustrates how to use these annotations:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Storage</span> <span class="o">{</span>
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">0</span><span class="o">)</span>
+	<span class="nd">@SerializeFixedSize</span><span class="o">(</span><span class="mi">3</span><span class="o">)</span>
+	<span class="nd">@SerializeNullable</span><span class="o">(</span><span class="n">path</span> <span class="o">=</span> <span class="o">{</span><span class="mi">0</span><span class="o">})</span>
+	<span class="kd">public</span> <span class="nc">String</span><span class="o">[]</span> <span class="n">strings</span><span class="o">;</span>
+
+	<span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span class="o">=</span> <span class="mi">1</span><span class="o">)</span>
+	<span class="nd">@SerializeFixedSize</span><span class="o">(</span><span class="mi">4</span><span class="o">)</span>
+	<span class="kd">public</span> <span class="kt">byte</span><span class="o">[]</span> <span class="n">bytes</span><span class="o">;</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>Now let’s serialize and deserialize an instance of the <strong>Storage</strong> similarly to the previous examples. We’ll create an 
+instance of the <strong>Storage</strong>, a byte array to store the result of the serialization and an instance of 
+<strong>BinarySerializer&lt;Storage&gt;</strong> serializer:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="nc">Storage</span> <span class="n">storage</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Storage</span><span class="o">();</span>
+<span class="n">storage</span><span class="o">.</span><span class="na">strings</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">String</span><span class="o">[]{</span><span class="s">"abc"</span><span class="o">,</span> <span class="kc">null</span><span class="o">,</span> <span class="s">"123"</span><span class="o">,</span> <span class="s">"superfluous"</span><span class="o">};</span>
+<span class="n">storage</span><span class="o">.</span><span class="na">bytes</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="o">[]{</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">,</span> <span class="mi">4</span><span class="o">};</span>
+
+<span class="kt">byte</span><span class="o">[]</span> <span class="n">buffer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="o">[</span><span class="mi">200</span><span class="o">];</span>
+<span class="nc">BinarySerializer</span><span class="o">&lt;</span><span class="nc">Storage</span><span class="o">&gt;</span> <span class="n">serializer</span> <span class="o">=</span> <span class="nc">SerializerBuilder</span><span class="o">.</span><span class="na">create</span><span class="o">()</span>
+		<span class="o">.</span><span class="na">build</span><span class="o">(</span><span class="nc">Storage</span><span class="o">.</span><span class="na">class</span><span class="o">);</span></code></pre></figure>
+
+<p>Finally, serialize and deserialize <strong>Storage</strong> instance:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">serializer</span><span class="o">.</span><span class="na">encode</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">storage</span><span class="o">);</span>
+<span class="nc">Storage</span> <span class="n">limitedStorage</span> <span class="o">=</span> <span class="n">serializer</span><span class="o">.</span><span class="na">decode</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span></code></pre></figure>
+
+<p>Let’s see how serialization affected the <em>storage</em>:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="nc">Arrays</span><span class="o">.</span><span class="na">toString</span><span class="o">(</span><span class="n">storage</span><span class="o">.</span><span class="na">strings</span><span class="o">)</span> <span class="o">+</span> <span class="s">" -&gt; "</span> <span class="o">+</span> <span class="nc">Arrays</span><span class="o">.</span><span class="na">toString</span><span class="o">(</span><span class="n">limitedStorage</span><span class="o">.</span><span class="na">strings</span><span class="o">));</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="nc">Arrays</span><span class="o">.</span><span class="na">toString</span><span class="o">(</span><span class="n">storage</span><span class="o">.</span><span class="na">bytes</span><span class="o">)</span> <span class="o">+</span> <span class="s">" -&gt; "</span> <span class="o">+</span> <span class="nc">Arrays</span><span class="o">.</span><span class="na">toString</span><span class="o">(</span><span class="n">limitedStorage</span><span class="o">.</span><span class="na">bytes</span><span class="o">));</span></code></pre></figure>
+
+<p>If you run the example, you’ll see the following output:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">[</span>abc, null, 123, superfluous] -&gt; <span class="o">[</span>abc, null, 123]
+<span class="o">[</span>1, 2, 3, 4] -&gt; <span class="o">[</span>1, 2, 3, 4]</code></pre></figure>
+
+<p>As you can see in the first line, <em>storage</em> differs from <em>limitedStorage</em>. This is because <code class="language-plaintext highlighter-rouge">@SerializeFixedSize</code> 
+annotation  was set at value <strong>3</strong> for the <em>strings</em> property. Thus, “superfluous” was removed from the array while serialization took place.</p>
+
+<p>You can explore full example sources <a href="https://github.com/activej/activej/blob/v4.0/examples/core/serializer/src/main/java/FixedSizeFieldsExample.java">on GitHub</a>.</p>
+
+    <div class="row docs-prevnext">
+        
+            <div class="col-sm-6"></div>
+        
+        
+    </div>
+</div>
+
+
+                </div>
+            </div>
+        
+        <div class="container justify-content-between footer">
+            <div class="col-md-4 col-lg-5"> &copy; 2021 ActiveJ LLC. All Rights Reserved</div>
+            <div class="col-md-4 col-lg-3">Contact us: contact@activej.io</div>
+            <div class="col-md-8 col-lg-4 footer__menu">
+                <a href="http://uikernel.io">UIKernel</a>
+                <a href="http://adkernel.com">AdKernel</a>
+                <a href="https://github.com/activej/activej">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="../static/js/leon.js"></script>
+    <script src="../static/js/index.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

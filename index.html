@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176574648-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-176574648-1');
+    </script>
+    
+    <link rel='stylesheet' href='/static/css/pygment_trac.css'/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <title>ActiveJ Serializer | World's fastest JVM serializer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" ActiveJ Serializer is world's fastest JVM serializer. It is streamlined and features powerful tools with intuitive DSL ">
+    <meta name="keywords" content=" java,java serializer,java library,serializer,serialization ">
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <meta name="og:description" content="ActiveJ is an alternative Java platform built from the ground up as a replacement of Spring, Spark, Quarkus, Micronauts, and other solutions. It is minimalistic, boilerplate-free, and provides outstanding performance." />
+    <meta name="og:image" content="https://activej.io/static/images/AJ_Card.jpeg" />
+    <meta name="og:title" content="ActiveJ - An Alternative Java platform built for web, high load, and cloud development" />
+</head>
+<body>
+    <div class="navbar-container-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <ul class="navbar-nav-visible mr-auto mt-1 mt-lg-0">
+                <div class="logo-link-title mr-5">
+                    <img src="/favicon.png" style="max-width: 25px">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a class="navbar-nav__link logo-link-title" href="/" style="margin-left: 5px">ActiveJ Serializer</a>
+                    
+                    
+                    
+                    
+                </div>
+            </ul>
+            <button class="navbar-toggler m-1 ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <div class="container">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <ul class="navbar-nav navbar-nav-visible mr-auto mt-1 mt-lg-0">
+                        
+                        <li>
+                            <a class="navbar-nav__link nav-expanded" href="/examples.html">
+                                Examples
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    
+                    
+                    
+                    
+                </div>
+                <span>
+              <ul class="navbar-nav expanded-links navbar-nav-visible mr-auto mt-1 mt-lg-0">
+                  <li class="dropdown">
+                    <a class="nav-link nav-expanded">Components</a>
+                    <ul class="dropdown__content">
+                        
+                            <div class="dropdown__content-wrapper">
+                                
+                                    <a href="https://activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://activej.io">ActiveJ</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Redefining Java for modern web applications </p>
+                                    </a>
+                                
+                                    <a href="https://inject.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://inject.activej.io">ActiveJ Inject</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Lightning-fast and ultimately powerful DI library </p>
+                                    </a>
+                                
+                                    <a href="https://serializer.activej.io" class="dropdown__content__item  selected-link ">
+                                        <li>
+                                            <div href="https://serializer.activej.io">ActiveJ Serializer</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> The fastest JVM serializer in the world </p>
+                                    </a>
+                                
+                                    <a href="https://codegen.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://codegen.activej.io">ActiveJ Codegen</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Dynamic bytecode generation without overhead of reflection </p>
+                                    </a>
+                                
+                                    <a href="https://specializer.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://specializer.activej.io">ActiveJ Specializer</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> A little bit of magic to speed up your code </p>
+                                    </a>
+                                
+                                    <a href="https://rpc.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://rpc.activej.io">ActiveJ RPC</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Lightning-fast binary protocol for microservices architecture </p>
+                                    </a>
+                                
+                                    <a href="https://fs.activej.io" class="dropdown__content__item ">
+                                        <li>
+                                            <div href="https://fs.activej.io">ActiveJ FS</div>
+                                        </li>
+                                        <p class="dropdown__content__item__text"> Tiny abstraction for managing local, remote, and distributed FS </p>
+                                    </a>
+                                
+                           </div>
+                        
+                    </ul>
+                </li>
+                  <li><a class="navbar-nav__link" href="https://activej.io/blog/release-notes.html">Blog</a> </li>
+                <li><a class="navbar-nav__link" href="http://uikernel.io">UIKernel</a></li>
+                <li><a class="navbar-nav__link" href="http://adkernel.com">AdKernel</a></li>
+                <li><a class="navbar-nav__link" href="https://github.com/activej/activej">GitHub</a></li>
+                <li><a class="navbar-nav__link" href="/about.html">About us</a></li>
+              </ul>
+            </span>
+            </div>
+        </nav>
+    </div>
+</div>
+
+    <div class="content">
+        
+            <div class="container-wrapper">
+    <div class="container">
+        <div class="slider">
+            <div class="slider__text">
+                <h1 id="animatedLogo" text="ActiveJ Serializer" class="mb-4 mt-4 slider__text__logo" align="center"></h1>
+                World's fastest JVM-based serializer
+            </div>
+        </div>
+        <div class="container-radius pb-4">
+            <div class="row mx-0 slider-buttons">
+                <a href="examples.html" class="col-5 slider-buttons__get-started-button">
+                    EXAMPLES
+                </a>
+                <a href="https://github.com/activej/activej/tree/v4.0/core-serializer" target="_blank" class="col-4 slider-buttons__github-button">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="paper__wrapper">
+    <div class="container features">
+        <div class="mx-3">
+
+            <h3>What is ActiveJ Serializer?</h3>
+            <p class="features__text">ActiveJ Serializer is the fastest Java serializer in the world. At the same time, it is
+                extremely powerful and features full support of Java subclasses, collections (including Maps), and also
+                specialized collections like HPPC.
+                <br>ActiveJ Serializer is one of the ActiveJ technologies, but it has minimal third-party dependencies and can be used as a stand-alone component.
+                <br>
+                <br>
+            <h3>Why ActiveJ Serializer?</h3>
+            <ul>
+                <li>Works directly with Java classes via annotations. No additional layers of intermediate DTO classes.</li>
+                <li>Implemented using runtime bytecode generation to be compatible with dynamically created classes.</li>
+                <li>Stable binary format with backward binary compatibility.</li>
+                <li>Support of the scheme evolution: changeable versions, added or removed fields, etc.</li>
+                <li>Can be easily extended - you can write your own plugins for specific classes.</li>
+                <li>Includes special hints for even more efficient code: String formats, nullable, varlen, etc.</li>
+                <li>Provides little endian format for JVM intrinsics.</li>
+                <li>Support of unsafe mode for the best performance. </li>
+                <li>Cyclic references of any complexity. </li>
+                <li>UTF-8, UTF-16 and ISO8859-1 encoding. </li>
+                <li>Compatible even with complex collections, generics and nullable values. </li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="container features transparent">
+        <div class="row mt-2 mb-4 justify-content-between samples">
+            <div class="samples__text-wrapper col-lg-5 col-md-12 pr-5">
+                <h3>Convenient and powerful</h3>
+                <div class="features__text mb-2">ActiveJ Serializer is a ground-breaking bytecode generator of <b>fast
+                    and space-efficient serializers</b>. It is incredibly <b>powerful</b> and works even with complicated
+                    objects utilizing a <b>simple
+                        and intuitive DSL</b>.
+                </div>
+
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <figure class="highlight m-0"><pre><code class="language-java" data-lang="java"><span
+                        class="kd">public</span> <span
+                        class="kd">static</span> <span class="kd">class</span> <span class="nc">Person</span> <span
+                        class="o">{</span>
+    <span class="kd">public</span> <span class="nf">Person</span><span class="o">(</span><span
+                            class="nd">@Deserialize</span><span class="o">(</span><span class="s">"age"</span><span
+                            class="o">)</span> <span class="kt">int</span> <span class="n">age</span><span
+                            class="o">,</span>
+    			  <span class="nd">@Deserialize</span><span class="o">(</span><span class="s">"name"</span><span
+                            class="o">)</span> <span class="n">String</span> <span class="n">name</span><span
+                            class="o">)</span> <span class="o">{</span>
+    	<span class="k">this</span><span class="o">.</span><span class="na">age</span> <span class="o">=</span> <span
+                            class="n">age</span><span class="o">;</span>
+    	<span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span
+                            class="n">name</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span
+                            class="o">=</span> <span class="mi">0</span><span class="o">)</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="n">age</span><span class="o">;</span>
+
+    <span class="nd">@Serialize</span><span class="o">(</span><span class="n">order</span> <span
+                            class="o">=</span> <span class="mi">1</span><span class="o">)</span>
+    <span class="kd">public</span> <span class="kd">final</span> <span class="n">String</span> <span
+                            class="n">name</span><span class="o">;</span>
+<span class="o">}</span></code></pre>
+                </figure>
+            </div>
+        </div>
+
+        <h3>Benchmarks</h3>
+        <p class="features__text">We’ve measured ActiveJ Serializer performance using <a
+                href="https://github.com/eishay/jvm-serializers/wiki">a well-known
+            benchmark tool</a>. All the results are represented as nanoseconds per operation (each operation consists of
+            creation, serialization, and deserialization).</p>
+        <div class="mt-4 mb-2 slider-img">
+            <div class="chart__wrapper">
+                <div class="chart">
+                    <a target="_blank" href="https://github.com/activej/jvm-serializers" class="chart__group chart__separate">
+                        <div class="chart__group__title">Serializer</div>
+                        <div class="chart__tooltip chart__tooltip-wide">
+                            ActiveJ Serializer speed mode - 546 ns/op <br/>
+                            ActiveJ Serializer default mode - 559 ns/op <br/>
+                            Colfer - 631 ns/op <br/>
+                            Protostuff - 1187 ns/op <br/>
+                            Dsl-json - 1238 ns/op <br/>
+                            Kryo - 1398 ns/op <br/>
+                            Protobuf - 1694 ns/op <br/>
+                        </div>
+                        <div class="chart__series chart__series-long-grid">
+                            <div class="chart__text">
+                                ActiveJ Serializer (speed mode)
+                            </div>
+                            <div class="chart__bar chart__bar_primary" data="546"></div>
+                            <div class="chart__measure-text">546 ns/op</div>
+                        </div>
+                        <div class="chart__series chart__series-long-grid">
+                            <div class="chart__text">
+                                ActiveJ Serializer (default mode)
+                            </div>
+                            <div class="chart__bar chart__bar_primary" data="559"></div>
+                            <div class="chart__measure-text">559 ns/op</div>
+                        </div>
+                        <div class="chart__series chart__series-long-grid">
+                            <div class="chart__text">
+                                Colfer
+                            </div>
+                            <div class="chart__bar chart__bar_secondary" data="631"></div>
+                            <div class="chart__measure-text">631 ns/op</div>
+                        </div>
+                        <div class="chart__series chart__series-long-grid">
+                            <div class="chart__text">
+                                Protostuff
+                            </div>
+                            <div class="chart__bar chart__bar_secondary" data="1187"></div>
+                            <div class="chart__measure-text">1187 ns/op</div>
+                        </div>
+                        <div class="chart__series chart__series-long-grid">
+                            <div class="chart__text">
+                                Dsl-json
+                            </div>
+                            <div class="chart__bar chart__bar_secondary" data="1238"></div>
+                            <div class="chart__measure-text">1238 ns/op</div>
+                        </div>
+                        <div class="chart__series chart__series-long-grid">
+                            <div class="chart__text">
+                                Kryo
+                            </div>
+                            <div class="chart__bar chart__bar_secondary" data="1398"></div>
+                            <div class="chart__measure-text">1398 ns/op</div>
+                        </div>
+                        <div class="chart__series chart__series-long-grid">
+                            <div class="chart__text">
+                                Protobuf
+                            </div>
+                            <div class="chart__bar chart__bar_secondary" data="1694"></div>
+                            <div class="chart__measure-text">1694 ns/op</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="paper__wrapper">
+    <div class="container features">
+        <h3 class="mx-3">Add ActiveJ Serializer to your project</h3>
+        <div class="features__text mx-3"> You can add ActiveJ Serializer to your project by importing its Maven repository.<br>
+            These docs cover the most recent ActiveJ Serializer release
+            <b>v4.0</b>
+            <small>(see on <a href="https://github.com/activej/activej/tree/v4.0/core-serializer">GitHub</a> or
+                <a href="https://mvnrepository.com/artifact/io.activej/activej-serializer">Maven</a> )</small>.<br>
+        </div>
+
+        <div class="container features">
+            <h3 class="mx-3">Project background</h3>
+            <p class="features__text mx-3">ActiveJ Serializer is one of the ActiveJ technologies that also include cloud
+                solutions,
+                lightning-fast
+                bytecode generators, dependency injection and other advanced libraries that make up the ActiveJ platform.
+                To learn more about ActiveJ,
+                visit <a href="https://activej.io">ActiveJ</a> website.</p>
+        </div>
+    </div>
+</div>
+
+        
+        <div class="container justify-content-between footer">
+            <div class="col-md-4 col-lg-5"> &copy; 2021 ActiveJ LLC. All Rights Reserved</div>
+            <div class="col-md-4 col-lg-3">Contact us: contact@activej.io</div>
+            <div class="col-md-8 col-lg-4 footer__menu">
+                <a href="http://uikernel.io">UIKernel</a>
+                <a href="http://adkernel.com">AdKernel</a>
+                <a href="https://github.com/activej/activej">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="../static/js/leon.js"></script>
+    <script src="../static/js/index.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
